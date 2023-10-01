@@ -2,8 +2,9 @@
   "name": "be-base-express",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/server.ts",
+  "main": "e-warga-api.js",
   "scripts": {
+    "start": "node e-warga-api-js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --fix",
     "build": "rm -rf build/ && prettier --write src/ && tsc",
